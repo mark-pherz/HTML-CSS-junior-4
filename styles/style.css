@@ -9,17 +9,17 @@
 
 @font-face {
   font-family: "raleway-regular";
-  src: url(./fonts/Raleway-Regular.woff2);
+  src: url(../fonts/Raleway-Regular.woff2);
 }
 
 @font-face {
   font-family: "raleway-bold";
-  src: url(./fonts/Raleway-Bold.woff2);
+  src: url(../fonts/Raleway-Bold.woff2);
 }
 
 @font-face {
   font-family: "open-sans-regular";
-  src: url(./fonts/OpenSans-Regular.woff2);
+  src: url(../fonts/OpenSans-Regular.woff2);
 }
 
 /* HEADER */
