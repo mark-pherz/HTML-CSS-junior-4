@@ -9,17 +9,17 @@
 
 @font-face {
   font-family: "raleway-regular";
-  src: url(/fonts/Raleway-Regular.woff2);
+  src: url(./fonts/Raleway-Regular.woff2);
 }
 
 @font-face {
   font-family: "raleway-bold";
-  src: url(/fonts/Raleway-Bold.woff2);
+  src: url(./fonts/Raleway-Bold.woff2);
 }
 
 @font-face {
   font-family: "open-sans-regular";
-  src: url(/fonts/OpenSans-Regular.woff2);
+  src: url(./fonts/OpenSans-Regular.woff2);
 }
 
 /* HEADER */
@@ -170,7 +170,7 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   width: clamp(18rem, 11rem + 17.5vw, 25rem); /* 640px - 1280px  */
   padding: clamp(1rem, 0.5rem + 1.25vw, 1.5rem)
-           clamp(1.25rem, 0.5rem + 1.875vw, 2rem); /* 640px - 1280px  */
+    clamp(1.25rem, 0.5rem + 1.875vw, 2rem); /* 640px - 1280px  */
   display: grid;
   gap: 1rem;
   margin-top: 1rem;
@@ -405,7 +405,7 @@
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  
+
   .productive__content {
     order: 1;
     gap: 1.5rem;
@@ -456,7 +456,7 @@
   .access__text-section {
     text-align: center;
   }
-  
+
   .access__header {
     font-family: "raleway-bold";
     color: white;
@@ -464,12 +464,12 @@
     font-size: 1.75rem;
     margin-bottom: 1rem;
   }
-  
+
   .access__paragraph {
     font-family: "open-sans-regular";
     color: white;
     width: unset;
-    font-size: 1rem; 
+    font-size: 1rem;
     max-width: 34rem;
   }
 
@@ -477,19 +477,19 @@
     display: grid;
     justify-items: center;
   }
-  
+
   .access__input {
     width: 18rem;
     margin-bottom: 1rem;
   }
-  
+
   .access__button {
     width: 12rem;
   }
 
- .footer--wrapper {
-  padding: 3rem 0;
-}
+  .footer--wrapper {
+    padding: 3rem 0;
+  }
 
   .footer__grid {
     grid-auto-flow: row;
